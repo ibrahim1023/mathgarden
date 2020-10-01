@@ -58,6 +58,7 @@ h2 {
   padding: 13px 32px 0 32px;
   text-align: center;
   text-decoration: none;
+  outline: none;
 }
 
 .btn:hover {

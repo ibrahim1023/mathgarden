@@ -11,7 +11,7 @@ var canvas;
 var context;
 
 function prepareCanvas() {
-  console.log('Preparing Canvas..');
+  // console.log('Preparing Canvas..');
   canvas = document.getElementById('my-canvas');
   context = canvas.getContext('2d');
 
@@ -25,7 +25,7 @@ function prepareCanvas() {
   var isPainting = false;
 
   document.addEventListener('mousedown', function (event) {
-    console.log('Mouse pressed');
+    // console.log('Mouse pressed');
     isPainting = true;
     currentX = event.clientX - canvas.offsetLeft;
     currentY = event.clientY - canvas.offsetTop;
@@ -44,7 +44,7 @@ function prepareCanvas() {
   });
 
   document.addEventListener('mouseup', function (event) {
-    console.log('Mouse released');
+    // console.log('Mouse released');
     isPainting = false;
   });
 
@@ -54,7 +54,7 @@ function prepareCanvas() {
 
   //   Touch Events
   canvas.addEventListener('touchstart', function (event) {
-    console.log('Touchdown');
+    // console.log('Touchdown');
     isPainting = true;
     currentX = event.touches[0].clientX - canvas.offsetLeft;
     currentY = event.touches[0].clientY - canvas.offsetTop;
