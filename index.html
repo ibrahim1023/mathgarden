@@ -12,6 +12,7 @@
 
   <!-- TODO: Add Javascript files here -->
   <script src="drawing.js"></script>
+  <script src="maths.js"></script>
   <script src="processing.js"></script>
   <script src="vendor/opencv.js"></script>
 
@@ -24,7 +25,7 @@
     <!-- TODO: Add title here -->
     <h1 id='title'>Math Garden</h1>
 
-    <h2 id='question'><span id='n1'>3</span> + <span id='n2'>2</span> = </h2>
+    <h2 id='question'><span id='n1'>1</span> + <span id='n2'>2</span> = </h2>
 
     <!-- TODO: Add a drawing canvas here -->
     <canvas id="my-canvas" width="150" height="150"></canvas>
@@ -40,10 +41,12 @@
 
     loadModel();
     prepareCanvas();
+    nextQuestion();
 
     document.getElementById('checkAnswer').addEventListener('click', function () {
-      predictImage();
+      checkAnswer();
       clearCanvas();
+      nextQuestion();
     })
 
   </script>
