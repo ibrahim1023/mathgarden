@@ -2,6 +2,8 @@ const BACKGROUND_COLOR = '#000000';
 const LINE_COLOR = '#ffffff';
 const LINE_WIDTH = 15;
 
+const s = 0;
+
 var currentX = 0;
 var currentY = 0;
 var previousX = 0;
