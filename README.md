@@ -8,6 +8,7 @@ Demo: https://ibrahim1023.github.io/mathgarden/
 * [Technologies](#technologies)
 * [Dataset](#dataset)
 * [Features](#features)
+* [Input Preprocessing](#input-preprocessing)
 * [Model](#model)
 * [Dependencies](#dependencies)
 
