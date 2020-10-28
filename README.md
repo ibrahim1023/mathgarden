@@ -40,6 +40,7 @@ After the input is drawn on the canvas,
 10. It predicts and if the answer is correct and model predicted correct too, the background starts to bloom!
 
 **Drawing** an incorrect answer will make the background wither.
+
 **Drawing** 6 correct values consecutively and it comes to an end
 
 ## Model
