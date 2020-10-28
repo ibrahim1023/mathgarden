@@ -1,5 +1,7 @@
 # Math Garden
-This project is a website that uses a trained machine learning model to predict the handwritten input
+This project is a website that uses a trained machine learning model to predict the handwritten input. 
+
+Demo: https://ibrahim1023.github.io/mathgarden/
 
 ## Table of contents
 * [General info](#general-info)
