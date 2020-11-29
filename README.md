@@ -38,13 +38,13 @@ After the input is drawn on the canvas,
 5. Crops the rest of the image (keeping only the relevant part of the image).
 6. Calculates new size (as this image is going to be a test input for the model to predict).
 7. Resizes the image to 28x28 (the test size requirement).
-8. Finds the centre of the mass to then Shift the image so if you draw on the top left of the canvas or anywhere on the canvas, it'll always transform the image to **center** for prediction.
+8. Finds the centre of the mass to then Shift the image (so if you draw on the top left of the canvas or anywhere on the canvas, it'll always transform the image to the **center** for prediction).
 9. Finally, the image is passed to the trained **Neural Network** model.
 10. It predicts and if the answer is correct and model predicted correct too, the background starts to bloom!
 
 **Drawing** an incorrect answer will make the background wither.
 
-**Drawing** 6 correct values consecutively and it comes to an end
+**Drawing** 6 correct values consecutively will bring it to an end
 
 ## Model
 
